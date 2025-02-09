@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Links - Brett Pine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive webpage showcasing important links and information. Built using **React** and **TypeScript**, this project demonstrates a modern and accessible design for personal branding and online portfolios.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🎨 **Custom Styling**: Utilises modern CSS variables for a consistent theme and responsive design.
+- 📄 **Key Links**: Easy access to portfolio, GitHub, LinkedIn, email, and a downloadable CV.
+- 💻 **Frontend**: Built with React + TypeScript to ensure high performance and maintainable code.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 1. Clone the repository:
+```bash
+git clone https://github.com/username/brett-links.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2. Navigate to the project folder:
+```bash
+cd brett-links
 ```
+
+### 3. Install dependencies:
+```bash
+npm install
+```
+
+### 4. Run the project:
+```bash
+npm run dev
+```
+
+Then open `http://localhost:3000` in your browser to view the app.
+
+---
+
+## Structure Overview
+
+- **Card Component**: Displays personal details and links, styled with `Card.css`.
+- **Footer Component**: Footer element for author attribution styled with `Footer.css`.
+- **Global Styles**: Reusable variables and resets defined in `global.css`.
+
+---

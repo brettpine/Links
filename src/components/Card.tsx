@@ -6,7 +6,7 @@ function Card() {
             <img src="/src/assets/portrait.jpg" alt="Portrait Photo"/>
             <h1>Brett Pine</h1>
             <p>Front End Web Developer</p>
-            <p>England, UK</p>
+            <p>West Sussex, UK</p>
             <a href="https://brettpine.co.uk" target="_blank">Portfolio</a>
             <a href="https://github.com/brettpine" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/brettpine/" target="_blank">LinkedIn</a>
