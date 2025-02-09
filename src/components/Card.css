@@ -1,0 +1,74 @@
+@import url('global.css');
+
+.card {
+    width: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 0.625rem;
+    background-color: var(--secondary-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.45rem 0.5rem rgba(0, 0, 0, 0.75);
+}
+
+img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin: 0.625rem;
+    border: 0.175rem solid var(--accent-color);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    font-size: 0.875rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border: 0.125rem solid var(--accent-color);
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 18rem;
+    display: block;
+    border-radius: 0.25rem;
+}
+
+a:hover {
+    color: var(--accent-color-dark);
+    border-bottom: 0.125rem solid var(--accent-color-dark);
+    border-radius: 0.25rem;
+    scale: 1.05;
+}
+
+a.CV {
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--white);
+}
+
+a.CV:hover {
+    background-color: var(--accent-color-dark);
+}
+
+@media (min-width: 768px) {
+    .card {
+        min-width: 25rem;
+    }
+
+}

@@ -1,0 +1,45 @@
+:root {
+    --accent-color: #ff9800;
+    --accent-color-dark: #e98000;
+    --primary-grey: #191B1F;
+    --secondary-grey: #292b2f;
+    --light-grey: #393b3f;
+    --background-color: #0c0c0e;
+    --white: #fff;
+}
+
+/*RESET*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img, a, button {
+    display: block;
+}
+
+button {
+    font: inherit;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    font: inherit;
+}
+
+/*RESET END*/
