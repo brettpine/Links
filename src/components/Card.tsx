@@ -3,7 +3,7 @@ import './Card.css';
 function Card() {
     return (
         <div className="card">
-            <img src="/src/assets/portrait.jpg" alt="Portrait Photo"/>
+            <img src="/static/portrait.jpg" alt="Portrait Photo"/>
             <h1>Brett Pine</h1>
             <p>Front End Web Developer</p>
             <p>West Sussex, UK</p>
